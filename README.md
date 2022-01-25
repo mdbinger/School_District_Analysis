@@ -1,6 +1,6 @@
 # School District Analysis
-Module 4 of Data Analytics Bootcamp
-Overview of the school district analysis: Explain the purpose of this analysis.
+## Module 4 of Data Analytics Bootcamp
+Maria is a Chief Data Scientist for the city school district. She has consulted us for help in analyzing the standardized test scores from all the schools in the city district and determining if any factors including school size, grade, school budget, etc., have any impact on student success on these standardized tests. We used the pandas tool within python on the platform Jupyter Notebook to write our code and perform our analyses. After we finished our original findings, we were informed all 9th grade test scores from Thomas High School needed to be voided and removed due to an issue involving academic integrity. We then ran the same analyses on the new data with the Thomas High 9th grade scores removed to see if there was any impact. 
 
 # Results 
 ### Using bulleted lists and images of DataFrames as support, address the following questions.
@@ -25,17 +25,19 @@ Overview of the school district analysis: Explain the purpose of this analysis.
 ##### School Summary Excluding Thomas High 9th Graders
 <img width="893" alt="new_school_summary" src="https://user-images.githubusercontent.com/96350388/150897494-632645aa-2fcd-4d6a-863d-b750fe263715.png">
 
-  - Average Math (83.418349 ,83.350937)
-  - Average Reading (83.848930 ,83.896082)
-  - % Passing Math (93.272171 ,93.185690)
-  - % Passing Reading (97.308869 ,97.018739)
-  - % Overall Passing(90.948012 ,90.630324)
+  - It might be obvious, but no schools were impacted by the removal of Thomas High School's 9th graders except for Thomas High School. Below is a summary of the impact that removing 9th graders had on Thomas High School:
+    - Average math scores decreased from 83.418349 to 83.350937
+    - Average reading scores increased from 83.848930 to 83.896082
+    - The percent of students passing math decreased from 93.272171 to 93.185690
+    - The percent of students passing reading decreased from 97.308869 to 97.018739
+    - The percent of overall students passing decreased from 90.948012 to 90.630324
+    - These changes are all very small and not very noteworthy. However, it is interesting that despite 9th graders being removed for academic integrity, the average reading scores increased when the 9th grade scores were removed. This was not expected, as typically academic integrity violations are designed to increase scores, so you would expect the average reading scores to be lower when those scores were removed, just like all the other categories were. 
 
 #### 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-
-#### How does replacing the ninth-grade scores affect the following:
+  - Looking at the school summaries above from 2), we can see that both before and after the scores were removed, Thomas High School was one of the best performing schools in the district. Both with and without the 9th grade scores, Thomas High School is the 2nd highest performing school in the district based upon percentage of students overall passing, so again there isn't really impact resulting from dropping the 9th grade scores. 
 
 #### How does replacing the ninth-grade scores affect math and reading scores by grade
+
 
 #### How does replacing the ninth-grade scores affect scores by school spending
 
