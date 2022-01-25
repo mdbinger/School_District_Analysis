@@ -1,6 +1,15 @@
 # School District Analysis
 ## Module 4 of Data Analytics Bootcamp
-Maria is a Chief Data Scientist for the city school district. She has consulted us for help in analyzing the standardized test scores from all the schools in the city district and determining if any factors including school size, grade, school budget, etc., have any impact on student success on these standardized tests. We used the pandas tool within python on the platform Jupyter Notebook to write our code and perform our analyses. After we finished our original findings, we were informed all 9th grade test scores from Thomas High School needed to be voided and removed due to an issue involving academic integrity. We then ran the same analyses on the new data with the Thomas High 9th grade scores removed to see if there was any impact. 
+Maria is a Chief Data Scientist for the city school district. She has consulted us for help in analyzing the standardized test scores from all the schools in the city district and determining if any factors including school size, grade, school budget, etc., have any impact on student success on these standardized tests. We used the pandas tool within python on the platform Jupyter Notebook to write our code and perform our analyses. 
+After we finished our original findings, we were informed all 9th grade test scores from Thomas High School needed to be voided and removed due to an issue involving academic integrity. We then ran the same analyses on the new data with the Thomas High 9th grade scores removed to see if there was any impact. We were able to remove the 9th grade scores from Thomas High School from our dataframes without impacting the code we ran for our analyses by using the .loc feature in pandas. Examples of the code we used to find and replace those scores are below.
+  
+  ##### Code to find and replace Thomas High 9th Grade Reading Scores
+    student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["school_name"] == "Thomas High School"), "reading_score"] = np.nan
+  ##### Code to find and replace Thomas High 9th Grade Math Scores
+    student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["school_name"] == "Thomas High School"), "math_score"] = np.nan
+  ##### Code to find all Thomas High 9th Grade Scores to Verify They've Been Replaced with NaNs
+    student_data_df.loc[(student_data_df["grade"] == "9th") & (student_data_df["school_name"] == "Thomas High School")]
+
 
 # Results 
 ### Using bulleted lists and images of DataFrames as support, address the following questions.
