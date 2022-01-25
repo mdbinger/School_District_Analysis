@@ -78,6 +78,24 @@ Maria is a Chief Data Scientist for the city school district. She has consulted 
 ##### Scores by School Type After Thomas High School 9th Grade Scores Removed
 <img width="630" alt="new_scores_by_type" src="https://user-images.githubusercontent.com/96350388/151065910-865102f8-0f90-4dc8-aad1-25b9d6c1b71a.png">
 
+  - Nothing new comes from the school type summaries either, as demonstrated above. Fortunately these two have their rounding matched, so you can't even tell they are from different analyses (trust me, they are).
+
 
 # Summary 
 ### Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+Ultimately, dropping the 9th grade scores from Thomas High School that were impacted by academic integrity had very little (in most cases no) impact on the analyses Maria needed us to complete to help her team at the district office. Below of a list of each distinguishable difference we could determine after dropping the 9th grade scores from Thomas High School.
+  - District-Wide Impact
+    - The average math score decreased by .1 overall when Thomas High School's 9th graders were removed
+  - Thomas High School Impact
+    - Average math scores decreased from 83.418349 to 83.350937, while average reading scores increased from 83.848930 to 83.896082
+    - The percent of students passing math decreased from 93.272171 to 93.185690, while percent of students passing reading decreased from 97.308869 to 97.018739
+    - The percent of overall students passing decreased from 90.948012 to 90.630324
+ 
+  - As stated before, these changes are all very small and not very noteworthy. 
+  - The district-wide math score decreased that tiny amount because Thomas High School 9th graders had one of the highest average scores for math, so removing that would inevitably bring the average down, even though it is still a small amount.
+  - The same logic can be applied to Thomas High's scores, where the 9th graders had the highest average math score of any grade at Thomas High. This is why we see the decrease in average math scores and percent of students passing math at Thomas High. 
+  - For reading scores at Thomas High School, however, 9th graders actually had the second lowerst average scores of all the grades, and 10th graders performed notably better than the rest of the grades. This is why we see the slight increase in average reading scores at Thomas High after 9th grade scores were removed, but it does not explain why the percent of students passing reading still decreased. This might have something to do with the number of students in each grade potentially being different enough that one grade's failing students begin to outweigh the other two after 9th graders were removed (but this is just a guess).
+  - For the percent of overall students passing decreasing, it's the same logic as everything listed above, with the small increase in average reading scores not being able to outweigh the decrease in virtually every other category impacted. 
+
+
