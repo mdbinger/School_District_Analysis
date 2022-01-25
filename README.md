@@ -63,8 +63,20 @@ Maria is a Chief Data Scientist for the city school district. She has consulted 
   - That said, if the scores are all rounded to the nearest tenth decimal point and the percentages are all rounded to the nearest whole number (as they are in the new analysis), all the numbers would be the same, so we can safely say dropping the 9th grade scores had no impact on our summary by school spending.
 
 #### 6) How does replacing the ninth-grade scores affect scores by school size
+##### Original Scores by School Size
+<img width="670" alt="original_scores_by_size" src="https://user-images.githubusercontent.com/96350388/151065094-a639f6ee-dade-4e52-8930-588f2701c8c1.png">
+
+##### Scores by School Size After Thomas High School 9th Grade Scores Removed
+<img width="671" alt="new_scores_by_size" src="https://user-images.githubusercontent.com/96350388/151065113-b66c56d3-a041-4e90-bb36-7ad14fe63100.png">
+
+  - Just like what we saw with the school spending summary, dropping 9th grade scores from Thomas High School had no impact on the scores summarized by school size after rounding all original scores to the approriate places to match the aggregate scores after the 9th grade Thomas High scores were dropped.
 
 #### 7) How does replacing the ninth-grade scores affect scores by school type
+##### Original Scores by School Type
+<img width="630" alt="original_scores_by_type" src="https://user-images.githubusercontent.com/96350388/151065878-63df65e5-3e1a-43db-99ef-f5083da5825d.png">
+
+##### Scores by School Type After Thomas High School 9th Grade Scores Removed
+<img width="630" alt="new_scores_by_type" src="https://user-images.githubusercontent.com/96350388/151065910-865102f8-0f90-4dc8-aad1-25b9d6c1b71a.png">
 
 
 # Summary 
