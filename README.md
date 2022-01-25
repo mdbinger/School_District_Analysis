@@ -37,8 +37,30 @@ Maria is a Chief Data Scientist for the city school district. She has consulted 
   - Looking at the school summaries above from 2), we can see that both before and after the scores were removed, Thomas High School was one of the best performing schools in the district. Both with and without the 9th grade scores, Thomas High School is the 2nd highest performing school in the district based upon percentage of students overall passing, so again there isn't really impact resulting from dropping the 9th grade scores. 
 
 #### 4) How does replacing the ninth-grade scores affect math and reading scores by grade
+##### Original Math Scores by Grade
+<img width="265" alt="original_math_scores_by_grade" src="https://user-images.githubusercontent.com/96350388/151062841-d5ab2075-4252-4f29-aa2b-07e1b1dddf3a.png">
+
+##### Original Reading Scores by Grade
+<img width="264" alt="original_reading_scores_by_grade" src="https://user-images.githubusercontent.com/96350388/151062858-cce8a7bf-fc31-4a14-ab93-4cd04d166297.png">
+
+##### New Math Scores by Grade Without Thomas High 9th Graders
+<img width="670" alt="new_math_scores_by_grade" src="https://user-images.githubusercontent.com/96350388/151062968-b65437a2-78ec-4bfc-a694-ca255f12c0e6.png">
+
+##### New Reading Scores by Grade Without Thomas High 9th Graders
+<img width="735" alt="new_reading_scores_by_grade" src="https://user-images.githubusercontent.com/96350388/151063056-bfc646a6-797b-4adc-87b6-e9afb2daf63a.png">
+
+  - There is no impact on any scores for reading or math, other than the scores that were removed. This is because the 9th grade reading and math scores from Thomas High School are independent data points relative to the entire data frame, meaning that changing them will have no impact on the other data in the data frame.
 
 #### 5) How does replacing the ninth-grade scores affect scores by school spending
+##### Original Scores by School Spending
+<img width="728" alt="original_scores_by_spending" src="https://user-images.githubusercontent.com/96350388/151063902-1a49ff90-8b83-4b6b-ac0f-53fe220b2611.png">
+
+##### Scores by School Spending After Thomas High School 9th Grade Scores Removed
+<img width="731" alt="new_scores_by_spending" src="https://user-images.githubusercontent.com/96350388/151063923-ef6dc10b-6bf6-436c-934f-3cb48e06faf5.png">
+
+  - Similar to what we saw in 1), the rounding was different in our original analysis compared to the new analysis after removing 9th grade scores from Thomas High School. 
+  - Thomas High School fell into the $630 - $644 spending category, so if there were to be differences caused by dropping the 9th grade scores we would expect the $630 - $644 numbers to differ and not any others. 
+  - That said, if the scores are all rounded to the nearest tenth decimal point and the percentages are all rounded to the nearest whole number (as they are in the new analysis), all the numbers would be the same, so we can safely say dropping the 9th grade scores had no impact on our summary by school spending.
 
 #### 6) How does replacing the ninth-grade scores affect scores by school size
 
