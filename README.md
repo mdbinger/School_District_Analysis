@@ -36,14 +36,13 @@ Maria is a Chief Data Scientist for the city school district. She has consulted 
 #### 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
   - Looking at the school summaries above from 2), we can see that both before and after the scores were removed, Thomas High School was one of the best performing schools in the district. Both with and without the 9th grade scores, Thomas High School is the 2nd highest performing school in the district based upon percentage of students overall passing, so again there isn't really impact resulting from dropping the 9th grade scores. 
 
-#### How does replacing the ninth-grade scores affect math and reading scores by grade
+#### 4) How does replacing the ninth-grade scores affect math and reading scores by grade
 
+#### 5) How does replacing the ninth-grade scores affect scores by school spending
 
-#### How does replacing the ninth-grade scores affect scores by school spending
+#### 6) How does replacing the ninth-grade scores affect scores by school size
 
-#### How does replacing the ninth-grade scores affect scores by school size
-
-#### How does replacing the ninth-grade scores affect scores by school type
+#### 7) How does replacing the ninth-grade scores affect scores by school type
 
 
 # Summary 
